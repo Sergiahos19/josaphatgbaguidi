@@ -164,10 +164,6 @@ function Hero() {
     <section className="hero section-wrap" id="accueil">
       <div className="hero-copy">
         <Reveal>
-          <div className="availability-pill">
-            <span className="status-dot" />
-            Portfolio personnel
-          </div>
           <p className="hero-pretitle">Bienvenue dans mon univers</p>
           <h1>
             Comprendre

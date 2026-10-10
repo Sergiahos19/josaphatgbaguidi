@@ -256,20 +256,6 @@ select:focus-visible {
   padding-top: 15px;
 }
 
-.availability-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  padding: 7px 11px;
-  color: rgba(235, 240, 248, 0.77);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 40px;
-  font-size: 10px;
-  letter-spacing: 0.075em;
-  text-transform: uppercase;
-}
-
-.status-dot,
 .caption-mark {
   width: 6px;
   height: 6px;
@@ -463,8 +449,10 @@ select:focus-visible {
 }
 
 .hero-note-bottom {
+  top: auto;
+  left: auto;
   right: -27px;
-  bottom: 12%;
+  bottom: 22%;
   min-width: 258px;
   padding: 15px 16px;
 }
@@ -1607,6 +1595,7 @@ select:focus-visible {
 
   .hero-note-bottom {
     right: -13px;
+    min-width: 250px;
   }
 
   .section-pad {
@@ -1773,7 +1762,8 @@ select:focus-visible {
 
   .hero-note-bottom {
     right: -20px;
-    bottom: 8%;
+    bottom: 20%;
+    min-width: 240px;
   }
 
   .hero-orbit {
